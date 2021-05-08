@@ -1,0 +1,752 @@
+                * {
+                    box-sizing: border-box;
+                    margin: 0px;
+                    padding: 0px;
+                }
+                
+                .showcase a {
+                    margin-left: 40%;
+                }
+                
+                .products section {
+                    transition: none;
+                    transform: none;
+                    width: 100%;
+                    margin-bottom: 100px;
+                }
+                
+                @media(max-width:1024px) {
+                    .nav1 {
+                        padding: 0;
+                        margin: 0;
+                        width: 100%;
+                        overflow: hidden;
+                        font-size: 15px;
+                        display: grid;
+                        grid-template-columns: repeat(3, 1fr);
+                    }
+                    .nav1 i {
+                        display: none;
+                    }
+                    .phon a,
+                    .telegram a {
+                        padding: 2px;
+                        padding-bottom: 5px;
+                        margin-left: 5%;
+                        align-items: center;
+                        font-weight: lighter;
+                    }
+                    .info h6 {
+                        padding-top: 3px;
+                        padding-bottom: 5px;
+                        text-align: center;
+                        align-items: center;
+                        font-weight: lighter;
+                    }
+                    .nav2 {
+                        width: 100%;
+                        background-color: black;
+                    }
+                    #logo {
+                        color: white;
+                        padding: 0;
+                        margin-left: -180px;
+                    }
+                    .nav2 ul {
+                        display: none;
+                    }
+                    .showcase {
+                        overflow: hidden;
+                        padding: 0;
+                    }
+                    .showcase p {
+                        padding-top: 200px;
+                        font-size: 40px;
+                    }
+                    .showcase h6 {
+                        font-size: 10px;
+                    }
+                    #s1 {
+                        display: block;
+                    }
+                    .special-product {
+                        display: grid;
+                        grid-template-columns: repeat(2, 2fr);
+                    }
+                    .img {
+                        display: grid;
+                        grid-template-rows: repeat(4, 1fr);
+                        width: 100%;
+                    }
+                    .content {
+                        width: 100%;
+                        padding: 0;
+                    }
+                    .content div {
+                        padding-top: 2%;
+                        padding-left: 10px;
+                        padding-right: 20px;
+                    }
+                    .customers {
+                        width: 100%;
+                    }
+                    .circle1 i {
+                        margin-top: -.5%;
+                    }
+                    .contact {
+                        display: grid;
+                        grid-gap: 20px;
+                        grid-template-rows: repeat(3, 1fr);
+                        grid-template-columns: repeat(2, 1fr);
+                    }
+                }
+                
+                @media(max-width:768px) {
+                    .nav1 {
+                        padding: 0;
+                        margin: 0;
+                        width: 100%;
+                        overflow: hidden;
+                        font-size: 15px;
+                        display: grid;
+                        grid-template-columns: repeat(3, 1fr);
+                    }
+                    .nav1 i {
+                        display: none;
+                    }
+                    .phon a,
+                    .telegram a {
+                        padding: 2px;
+                        padding-bottom: 5px;
+                        margin-left: 5%;
+                        align-items: center;
+                        font-weight: lighter;
+                    }
+                    .info h6 {
+                        padding-top: 3px;
+                        padding-bottom: 5px;
+                        text-align: center;
+                        align-items: center;
+                        font-weight: lighter;
+                    }
+                    .nav2 {
+                        width: 100%;
+                        background-color: black;
+                    }
+                    #logo {
+                        color: white;
+                        padding: 0;
+                        margin-left: -180px;
+                    }
+                    .nav2 ul {
+                        display: none;
+                    }
+                    .showcase {
+                        overflow: hidden;
+                        padding: 0;
+                    }
+                    .showcase p {
+                        padding-top: 200px;
+                        font-size: 40px;
+                    }
+                    .showcase h6 {
+                        font-size: 10px;
+                    }
+                    #s1 {
+                        display: block;
+                    }
+                    .special-product {
+                        display: grid;
+                        grid-template-columns: repeat(2, 2fr);
+                    }
+                    .img {
+                        display: grid;
+                        grid-template-rows: repeat(4, 1fr);
+                        width: 100%;
+                    }
+                    .content {
+                        width: 100%;
+                        padding: 0;
+                    }
+                    .content div {
+                        padding-top: 30px;
+                        padding-left: 10px;
+                        padding-right: 20px;
+                    }
+                    .customers {
+                        width: 100%;
+                    }
+                    .circle1 i {
+                        margin-top: 30%;
+                    }
+                    .contact {
+                        display: grid;
+                        grid-gap: 20px;
+                        grid-template-rows: repeat(3, 1fr);
+                        grid-template-columns: repeat(2, 1fr);
+                    }
+                    .welcome img {
+                        width: 100%;
+                    }
+                    .content div h1 {
+                        text-align: center;
+                        font-size: 20px;
+                        padding-top: 30px;
+                    }
+                    .content div h6 {
+                        color: grey;
+                        padding: 0 10px;
+                    }
+                    .content div h4 {
+                        margin-bottom: 10px;
+                        text-align: center;
+                        font-size: 14px;
+                    }
+                    .content div {
+                        padding-top: 2%;
+                        padding-left: 3%;
+                        padding-right: 3%;
+                    }
+                    #form {
+                        margin-left: 10%;
+                        margin-top: -8%;
+                    }
+                }
+                
+                @media(max-width:458px) {
+                    .nav1 {
+                        padding: 0;
+                        margin: 0;
+                        width: 100%;
+                        overflow: hidden;
+                        font-size: 15px;
+                        display: block;
+                        height: 100px;
+                    }
+                    .nav1 i {
+                        display: none;
+                    }
+                    .phon a,
+                    .telegram a {
+                        padding: 2px;
+                        padding-bottom: 5px;
+                        margin-left: 30%;
+                        align-items: center;
+                        font-weight: lighter;
+                    }
+                    .info h6 {
+                        padding-top: 3px;
+                        padding-bottom: 5px;
+                        text-align: center;
+                        align-items: center;
+                        font-weight: lighter;
+                    }
+                    .nav2 {
+                        width: 100%;
+                        background-color: black;
+                    }
+                    #logo {
+                        color: white;
+                        padding: 0;
+                        margin-left: -180px;
+                    }
+                    .nav2 ul {
+                        display: none;
+                    }
+                    .showcase {
+                        overflow: hidden;
+                        padding: 0;
+                    }
+                    .showcase p {
+                        padding-top: 200px;
+                        font-size: 40px;
+                    }
+                    .showcase h6 {
+                        font-size: 10px;
+                    }
+                    .icon {
+                        display: block;
+                    }
+                    .icon div {
+                        padding-bottom: 15px;
+                    }
+                    .shop {
+                        display: block
+                    }
+                    .special-product {
+                        display: block
+                    }
+                    #s1 {
+                        width: 25%;
+                        display: block;
+                    }
+                    .testimony section,
+                    .testimony h1,
+                    main,
+                    .main {
+                        padding-right: 5%;
+                        text-align: justify;
+                        padding-left: 5%;
+                        margin-left: 0;
+                        font-size: 30px;
+                    }
+                    .test {
+                        height: 100%;
+                    }
+                    .test .main {
+                        margin: 20%;
+                        display: block;
+                    }
+                    .main div {
+                        padding-top: 20px;
+                        padding-bottom: 20px;
+                    }
+                    .welcome {
+                        display: block;
+                    }
+                    .welcome div {
+                        width: 100%;
+                    }
+                    .iframe {
+                        margin-top: 300px;
+                    }
+                    .customers {
+                        margin-left: 10%;
+                        width: 100%;
+                    }
+                    #first h1 {
+                        font-size: 20px;
+                    }
+                    #first h6 {
+                        font-size: 10px;
+                    }
+                    .img {
+                        margin-left: 50px;
+                        grid-template-columns: repeat(1, 1fr);
+                        width: 100%;
+                    }
+                    .spans {
+                        margin-left: -5px;
+                    }
+                    .pagination {
+                        margin-left: 40px;
+                    }
+                    .content {
+                        align-items: center;
+                        text-align: justify;
+                        width: 100%;
+                        display: block;
+                        padding: 0;
+                    }
+                    .content div h1 {
+                        text-align: center;
+                        font-size: 20px;
+                        padding-top: 30px;
+                    }
+                    .content div h6 {
+                        color: grey;
+                        padding: 0 10px;
+                    }
+                    .content div h4 {
+                        margin-bottom: 10px;
+                        text-align: center;
+                        font-size: 14px;
+                    }
+                    .content div {
+                        padding-top: 2%;
+                        padding-left: 3%;
+                        padding-right: 3%;
+                    }
+                    #form {
+                        margin-left: 10%;
+                        margin-top: -8%;
+                    }
+                    .bell {
+                        grid-template-columns: repeat(1, 1fr);
+                    }
+                    .i {
+                        grid-template-columns: repeat(1, 1fr);
+                    }
+                    .main-blog {
+                        grid-template-columns: repeat(1, 1fr);
+                    }
+                    .sec18 {
+                        font-size: 15px;
+                        grid-template-columns: repeat(1, 1fr);
+                    }
+                    .form {
+                        grid-template-columns: repeat(1, 1fr);
+                    }
+                    .blog div {
+                        display: grid;
+                        grid-template-columns: repeat(1, 1fr);
+                    }
+                    #form input {
+                        margin: 10px 0;
+                        margin-bottom: 5%;
+                        width: 60%;
+                    }
+                    .circle1-1 i {
+                        margin-top: -20%;
+                        margin-left: 35%;
+                    }
+                    .products section {
+                        transition: none;
+                        transform: none;
+                        width: 100%;
+                        margin-bottom: 100px;
+                    }
+                    .cart1 {
+                        grid-template-columns: repeat(1, 1fr);
+                    }
+                    .circle1 i {
+                        height: 60px;
+                        width: 60px;
+                        margin-top: -5%;
+                        margin-left: 35%;
+                    }
+                    .contact {
+                        line-height: 40px;
+                        padding-bottom: 10px;
+                        width: 100%;
+                        display: block
+                    }
+                    .contact div {
+                        margin: 20px 10px;
+                    }
+                    footer {
+                        margin-top: 600px;
+                    }
+                    .welcome .video {
+                        margin-left: 30%;
+                        margin-top: -40%;
+                    }
+                    .special-product div:hover {
+                        transform: none;
+                    }
+                }
+                
+                @media(max-width:300px) {
+                    .nav1 {
+                        padding: 0;
+                        margin: 0;
+                        width: 100%;
+                        overflow: hidden;
+                        font-size: 15px;
+                        display: block;
+                        height: 100px;
+                    }
+                    .nav1 i {
+                        display: none;
+                    }
+                    .phon a,
+                    .telegram a {
+                        padding: 2px;
+                        padding-bottom: 5px;
+                        margin-left: 30%;
+                        align-items: center;
+                        font-weight: lighter;
+                    }
+                    .info h6 {
+                        padding-top: 3px;
+                        padding-bottom: 5px;
+                        text-align: center;
+                        align-items: center;
+                        font-weight: lighter;
+                    }
+                    .nav2 {
+                        width: 100%;
+                        background-color: black;
+                    }
+                    #logo {
+                        color: white;
+                        padding: 0;
+                        margin-left: -180px;
+                    }
+                    .nav2 ul {
+                        display: none;
+                    }
+                    .showcase {
+                        overflow: hidden;
+                        padding: 0;
+                    }
+                    .showcase p {
+                        padding-top: 200px;
+                        font-size: 40px;
+                    }
+                    .showcase h6 {
+                        font-size: 10px;
+                    }
+                    .icon {
+                        display: block;
+                    }
+                    .icon div {
+                        padding-bottom: 15px;
+                    }
+                    .shop {
+                        display: block
+                    }
+                    .special-product {
+                        display: block
+                    }
+                    #s1 {
+                        display: block;
+                    }
+                    .testimony section,
+                    .testimony h1,
+                    main,
+                    .main {
+                        padding-right: 1%;
+                        text-align: justify;
+                        padding-left: 1%;
+                        margin-left: 0;
+                        font-size: 30px;
+                    }
+                    .welcome .video {
+                        margin-left: 30%;
+                        margin-top: -40%;
+                    }
+                    .customers {
+                        width: 100%;
+                    }
+                    #first h1 {
+                        font-size: 20px;
+                    }
+                    #first h6 {
+                        font-size: 10px;
+                    }
+                    .img {
+                        margin-left: 50px;
+                        grid-template-columns: repeat(1, 1fr);
+                        width: 100%;
+                    }
+                    .content {
+                        width: 100%;
+                        display: block;
+                        padding: 0;
+                    }
+                    .content div h1 {
+                        padding-top: 30px;
+                    }
+                    .content div h6 {
+                        color: grey;
+                        padding: 0 10px;
+                    }
+                    #form {
+                        margin: 10px 10px;
+                    }
+                    #form input {
+                        margin: 10px 0;
+                        padding: 10px;
+                        margin-bottom: 50px;
+                        width: 80%;
+                    }
+                    .products section {
+                        margin-bottom: 100px;
+                    }
+                    .circle1 i {
+                        height: 60px;
+                        width: 60px;
+                        margin-top: -10%;
+                        margin-left: 40%;
+                    }
+                    .contact {
+                        line-height: 40px;
+                        padding-bottom: 10px;
+                        width: 100%;
+                        display: block
+                    }
+                    .contact div {
+                        margin: 20px 10px;
+                    }
+                    footer {
+                        margin-top: 600px;
+                    }
+                }
+                
+                @media(max-width:280px) {
+                    .nav1 {
+                        padding: 0;
+                        margin: 0;
+                        width: 100%;
+                        overflow: hidden;
+                        font-size: 15px;
+                        display: block;
+                        height: 100px;
+                    }
+                    .nav1 i {
+                        display: none;
+                    }
+                    .phon a,
+                    .telegram a {
+                        padding: 2px;
+                        padding-bottom: 5px;
+                        margin-left: 30%;
+                        align-items: center;
+                        font-weight: lighter;
+                    }
+                    .info h6 {
+                        padding-top: 3px;
+                        padding-bottom: 5px;
+                        text-align: center;
+                        align-items: center;
+                        font-weight: lighter;
+                    }
+                    .nav2 {
+                        width: 100%;
+                        background-color: black;
+                    }
+                    #logo {
+                        color: white;
+                        padding: 0;
+                        margin-left: -180px;
+                    }
+                    .nav2 ul {
+                        display: none;
+                    }
+                    .showcase {
+                        overflow: hidden;
+                        padding: 0;
+                    }
+                    .showcase p {
+                        padding-top: 200px;
+                        font-size: 40px;
+                    }
+                    .showcase h6 {
+                        font-size: 10px;
+                    }
+                    .icon {
+                        display: block;
+                    }
+                    .icon div {
+                        padding-bottom: 15px;
+                    }
+                    .shop {
+                        display: block
+                    }
+                    .special-product {
+                        display: block
+                    }
+                    #s1 {
+                        padding-left: 5%;
+                        padding-right: 30%;
+                        display: block;
+                    }
+                    .testimony section,
+                    .testimony h1,
+                    main,
+                    .main {
+                        width: 100%;
+                        padding-right: 1%;
+                        text-align: justify;
+                        padding-left: 1%;
+                        margin-left: 0;
+                        font-size: 30px;
+                    }
+                    .main div {
+                        padding-left: 0px;
+                    }
+                    .customers {
+                        width: 100%;
+                    }
+                    #first h1 {
+                        font-size: 20px;
+                    }
+                    #first h6 {
+                        font-size: 10px;
+                    }
+                    .img {
+                        margin-left: -10px;
+                        display: grid;
+                        grid-template-rows: repeat(4, 1fr);
+                        width: 100%;
+                    }
+                    .content {
+                        font-size: 18px;
+                        width: 100%;
+                        display: block;
+                        padding: 0;
+                    }
+                    .content div h1 {
+                        font-size: 18px;
+                        padding-top: 30px;
+                    }
+                    .content div h6 {
+                        font-size: 18px;
+                        color: grey;
+                        padding: 0 10px;
+                    }
+                    #form {
+                        margin: -25px 0px;
+                    }
+                    #form input {
+                        font-size: 15px;
+                        margin: 10px 0;
+                        margin-bottom: 5px;
+                        width: 60%;
+                        height: 30px
+                    }
+                    #bt {
+                        width: 30%;
+                        height: 30px;
+                    }
+                    .products section {
+                        margin-bottom: 100px;
+                    }
+                    .circle1 i {
+                        height: 40px;
+                        width: 40px;
+                        margin-top: -.20%;
+                        margin-left: 40%;
+                    }
+                    .contact {
+                        line-height: 40px;
+                        padding-bottom: 10px;
+                        width: 100%;
+                        display: block
+                    }
+                    .contact div {
+                        margin: 20px 10px;
+                    }
+                    footer {
+                        margin-top: 600px;
+                    }
+                    .wishtest {
+                        width: 100%;
+                    }
+                    .cart1 {
+                        display: block;
+                    }
+                    .cart1 {
+                        display: inline-block;
+                    }
+                    .products section {
+                        transition: none;
+                        transform: none;
+                        width: 100%;
+                        margin-bottom: 100px;
+                    }
+                    .content div h1 {
+                        text-align: center;
+                        font-size: 20px;
+                        padding-top: 30px;
+                    }
+                    .content div h6 {
+                        color: grey;
+                        padding: 0 10px;
+                    }
+                    .content div h4 {
+                        margin-bottom: 10px;
+                        text-align: center;
+                        font-size: 14px;
+                    }
+                    .content div {
+                        padding-top: 2%;
+                        padding-left: 3%;
+                        padding-right: 3%;
+                    }
+                    #form {
+                        margin-left: 10%;
+                        margin-top: -8%;
+                    }
+                }
